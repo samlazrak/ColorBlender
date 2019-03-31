@@ -1,5 +1,5 @@
 import click
-from colorutils import ArithmeticModel, Color, hex_to_rgb
+from colorutils import ArithmeticModel, Color
 
 
 @click.group()
