@@ -185,10 +185,11 @@ final_pallet = [
 
 l = 0
 while l < len(final_pallet):
-  # c = Color((final_pallet[l][0], final_pallet[l][1], final_pallet[l][2]))
-  print(
-    "%02x%02x%02x"
-    % (int(final_pallet[l][0]), int(final_pallet[l][1]), int(final_pallet[l][2]))
-  )
+  c = Color((final_pallet[l][0], final_pallet[l][1], final_pallet[l][2]))
+  print(c.hex)
+  # print(
+  #   "%02x%02x%02x"
+  #   % (int(final_pallet[l][0]), int(final_pallet[l][1]), int(final_pallet[l][2]))
+  # )
   l = l + 1
 
