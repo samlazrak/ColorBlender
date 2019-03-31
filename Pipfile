@@ -12,6 +12,7 @@ black = "*"
 colorutils = "*"
 colors-py = "*"
 click = "*"
+termcolor = "*"
 
 [requires]
 python_version = "3.7"
