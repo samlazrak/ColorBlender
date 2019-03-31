@@ -1,3 +1,18 @@
 {
-  "python.pythonPath": "/Users/samlazrak/.local/share/virtualenvs/ColorMixer-VtWdv17_/bin/python"
+  "python.pythonPath": "/Users/samlazrak/.local/share/virtualenvs/ColorMixer-VtWdv17_/bin/python",
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".py",
+        "cmd": "black .'"
+      },
+      {
+        "match": ".py",
+        "cmd": "/Users/samlazrak/.local/share/virtualenvs/ColorMixer-VtWdv17_/lib/python3.7/site-packages/black.py .'"
+      }
+    ]
+  },
+  "python.formatting.provider": "black",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
 }
